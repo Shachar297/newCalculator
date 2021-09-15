@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator </title>
+</head>
+
+<body>
+
+<!-- <div class="header-nav">
+
+<span class="headerInformation">
+<ul>
+    <li>Made By Shachar Ovadia</li>
+    <li> <a href="">  See Other Projects </a></li>
+    <li> <a href="">  Contact Me </a> </li>
+</ul>
+    
+</span>
+
+<span class="headerMadeWith">
+    <ul>
+        <li style="color : white;">
+        made with :
+        </li>
+        <li>Html</li>
+        <li>Css</li>
+        <li> Vannila Js </li>
+    </ul>
+</span>
+</div> -->
+
+    <div class="container" id="container">
+
+        <div class="calculator" id="calculator">
+            <div class="calculator-header">
+                <div id="calculator-screen" data-previous-operand></div>
+                <div id="calculator-header" data-current-operand></div>
+            </div>
+
+            <div id="calculator-buttons">
+<button class="span-two" data-all-clear>AC</button>
+<button data-delete>DEL</button>
+
+
+
+<button data-operation>:</button>
+<button data-number>1</button>
+<button data-number>2</button>
+<button data-number>3</button>
+<button data-operation>+</button>
+<button data-number>4</button>
+<button data-number>5</button>
+<button data-number>6</button>
+<button data-operation>-</button>
+<button data-number>7</button>
+<button data-number>8</button>
+<button data-number>9</button>
+<button data-operation>*</button>
+<button data-number>0</button>
+<button data-number>.</button>
+<button class="span-two" data-equals>=</button>
+            </div>
+
+            <div class="calculator-body-buttons" id="calculator-body-buttons"></div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
